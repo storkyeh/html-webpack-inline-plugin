@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "storkyeh",
+  "author": "storkyeh storkyeh@gmail.com",
+  "repository": "git://github.com/storkyeh/html-webpack-inline-plugin.git",
   "license": "MIT",
   "dependencies": {
     "inline-source": "^5.2.4"
