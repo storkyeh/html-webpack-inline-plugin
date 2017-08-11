@@ -1,4 +1,7 @@
 # html-webpack-inline-plugin
+
+[![NPM Version](https://img.shields.io/npm/v/html-webpack-inline-plugin.svg?style=flat-square)](https://www.npmjs.com/package/html-webpack-inline-plugin)
+
 > Inline all `<script>`, `<link>` and `<img>` tags that contain the `inline` attribute with [inline-source](https://github.com/popeindustries/inline-source).
 
 ## Installation
