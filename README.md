@@ -1,4 +1,5 @@
-# Embed Scripts Inline for the HTML Webpack Plugin
+# html-webpack-inline-plugin
+> Inline all `<script>`, `<link>` and `<img>` tags that contain the `inline` attribute with [inline-source](https://github.com/popeindustries/inline-source).
 
 ## Installation
 
@@ -28,13 +29,16 @@ Add the tag to your html template as follows:
 ```html
 <!DOCTYPE html>
 <html>
-<head>
-  <!-- inline-plugin path="web_modules/lib/lib.js"-->
-</head>
-<body>
-</body>
+  <head>
+    <script inline src="web_modules/lib/lib.js"></script>
+  </head>
+  <body>
+  </body>
 </html>
 ```
+
+# Inspired by
+[gulp-inline-source](https://github.com/fmal/gulp-inline-source)
 
 # License
 
